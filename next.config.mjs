@@ -1,9 +1,6 @@
-// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',                 
-  basePath: '/wumind-website',      
-  assetPrefix: '/wumind-website/',  
+  output: 'export', 
   images: { unoptimized: true },    
 };
 export default nextConfig;
