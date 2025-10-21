@@ -124,11 +124,11 @@ export function ServiceExamplesSection() {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-purple-600 to-blue-600 p-12 md:p-16 text-center">
+        <div className="mt-16 relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-purple-600 to-blue-600 p-8 md:p-16 text-center">
           <div className="absolute inset-0 bg-grid-white/10 [mask-image:radial-gradient(white,transparent_70%)]" />
           <div className="relative z-10">
-            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">Las Posibilidades son Infinitas</h3>
-            <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
+            <h3 className="text-2xl md:text-4xl font-bold text-white mb-4">Las Posibilidades son Infinitas</h3>
+            <p className="text-base md:text-xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
               Si tienes una empresa y quieres empezar a ahorrar tiempo y dinero en tareas repetitivas, automatiza lo que
               no necesita tu atención y enfócate en hacer crecer tu negocio. Descubre cómo la IA puede transformar tu
               forma de trabajar.
@@ -136,10 +136,12 @@ export function ServiceExamplesSection() {
             <Button
               size="lg"
               onClick={scrollToContact}
-              className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-6 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              className="w-full md:w-auto bg-white text-primary hover:bg-white/90 font-semibold px-6 md:px-8 py-5 md:py-6 text-base md:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
-              Solicita tu Consultoría Gratuita
-              <ArrowRight className="ml-2 w-5 h-5" />
+              <span className="flex items-center justify-center gap-2">
+                Solicita tu Consultoría Gratuita
+                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
+              </span>
             </Button>
           </div>
         </div>
